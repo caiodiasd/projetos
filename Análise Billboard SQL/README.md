@@ -6,8 +6,7 @@ Este projeto tem como objetivo explorar os dados históricos das paradas musicai
 
 - `hot100.csv` – Dados da Billboard Hot 100.
 - `billboard200.csv` – Dados da Billboard 200.
-- `projeto_sql_analise_billboard.sql` – Script SQL com limpeza, criação de tabelas e queries de análise.
-- `projeto_sql_analise_billboard.pdf` – PDF com as perguntas separadas por nível de dificuldade.
+- `billboard_query_sql` – Script SQL com limpeza, criação de tabelas e queries de análise.
 
 ## 📊 Consultas Realizadas
 
@@ -31,10 +30,42 @@ As perguntas foram organizadas por grau de complexidade:
 
 - SQLite / DBeaver
 - SQL ANSI
-- Python (para geração de PDF)
 
-## 📌 Como Usar
+## 🎵 Conclusões Possíveis do Projeto
 
-1. Importe os arquivos CSV no seu banco SQLite.
-2. Execute o script `projeto_sql_analise_billboard.sql` para limpar os dados e rodar as consultas.
-3. Visualize os resultados conforme cada pergunta.
+📌 1. Dominância de artistas no mercado
+Através das perguntas 1 e 4, vemos quais artistas dominaram os rankings da Billboard Hot 100 em número de entradas e presença no Top 10.
+
+
+📌 2. Sucessos recentes versus clássicos
+A pergunta 2 nos mostra quais músicas estão atualmente se destacando, o que ajuda a entender tendências atuais.
+
+Comparando com outros anos (pergunta 3 e 8), podemos observar mudanças no padrão de consumo musical ao longo das décadas.
+
+📌 3. Longevidade de músicas nos charts
+A pergunta 5 revela quais músicas tiveram maior desempenho contínuo, ficando semanas seguidas no 1º lugar.
+
+Isso mostra impacto e aceitação do público por certos hits.
+
+📌 4. Artistas com maior consistência
+A pergunta 6 revela quais artistas mantêm músicas constantemente entre os 5 primeiros, o que mostra poder de engajamento e recorrência de sucesso.
+
+📌 5. Intersecção entre sucesso de singles e álbuns
+A pergunta 7 nos mostra quais artistas têm sucesso tanto na Hot 100 (singles) quanto na Billboard 200 (álbuns).
+
+Indicando artistas com carreira sólida e versátil.
+
+📌 6. Mudança no comportamento da indústria
+A pergunta 8 nos permite ver quanto tempo, em média, uma música permanece no Hot 100 por década.
+
+Pode revelar se hoje os sucessos são mais efêmeros do que nas décadas anteriores, talvez por conta do streaming e viralização.
+
+
+## 📂 Fonte de Dados
+
+Os dados utilizados neste projeto foram obtidos a partir do Kaggle:
+
+- Dataset: [Billboard Hot 100 & Billboard 200](https://www.kaggle.com/datasets/ludmin/billboard)  
+- Licença: MIT License – [veja os termos](https://www.mit.edu/~amini/LICENSE.md)
+
+Este projeto é de caráter educacional e analítico, e respeita os termos de uso dos dados públicos disponibilizados pelo autor no Kaggle.
